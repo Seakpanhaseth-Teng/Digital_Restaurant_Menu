@@ -1,9 +1,14 @@
-import React from 'react';
-
-export default function AdminToolbar() {
-    return (
-        <div className="admin-toolbar">
-            <h1>Admin Toolbar</h1>
-        </div>
-    );
+export default function AdminToolbar({
+  onAddItem,
+}) {
+  return (
+    <div className="mb-6">
+      <button
+        onClick={onAddItem}
+        className="w-full rounded-xl bg-black px-4 py-3 text-white"
+      >
+        Add New Item
+      </button>
+    </div>
+  );
 }

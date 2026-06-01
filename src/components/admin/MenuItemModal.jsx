@@ -8,6 +8,17 @@ category: "",
 image: "",
 };
 
+{
+  id: crypto.randomUUID(),
+  name,
+  description,
+  price,
+  category,
+  image,
+  createdAt,
+  updatedAt
+}
+
 export default function MenuItemModal({
 isOpen,
 onClose,
