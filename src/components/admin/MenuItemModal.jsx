@@ -98,7 +98,22 @@ return (
    />
 
 ```
-  <div className="fixed inset-x-4 top-10 z-50 rounded-2xl bg-white p-6 shadow-xl dark:bg-gray-900">
+  <div
+  className="
+    fixed
+    inset-x-4
+    top-4
+    bottom-4
+    z-50
+    max-h-[85vh]
+    overflow-y-auto
+    rounded-2xl
+    bg-white
+    p-6
+    shadow-xl
+    dark:bg-gray-900
+  "
+  >
     <h2 className="mb-6 text-xl font-bold dark:text-white">
       {editingItem
         ? "Edit Menu Item"
